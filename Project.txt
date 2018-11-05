@@ -1,0 +1,9 @@
+Theme : Desserts
+Use cases:
+    1. Recipe finder
+    2. Dessert place locator
+    3. Join monthly newsletter
+    4. Place to upload pictures of Desserts/look at pictures of desserts that other people made 
+    5. Where to buy desserts online
+    6. User account/profile
+    7. Dessert Event Calendar - tells you what days you can get free/discounted desserts and where 
