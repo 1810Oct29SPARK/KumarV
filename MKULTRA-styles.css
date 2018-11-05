@@ -1,0 +1,77 @@
+body {
+    background: rgb(185, 139, 93);
+   background-image: url("https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/7/73/Classified-Stamp-Transparent.png/revision/latest?cb=20170510022554"); 
+    padding: 0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+header > h1 {
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    color: white;
+}
+nav {
+    text-align: center;
+}
+.Main {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-style: dashed;
+    border-color: black;
+}
+article {
+    width: 70%;
+    flex-grow: 2;
+}
+aside {
+    color: white;
+    float: right;
+    flex-grow: 1;
+    width: 30%;
+    font-size: 20px;
+    border-style: dashed;
+    border-color: black;
+}
+.Table {
+    width: 60%;
+    color: white;
+    font-size: 15px;
+}
+ul {
+    color: white;
+    font-size: 20px;
+}
+.Contact {
+    color: white;
+    font-size: 20px;
+}
+.Experiments {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    border-style: dashed;
+    border-color:black;
+}
+#Header {
+    text-align: center;
+}
+p {
+    text-indent: 5%;
+    
+}
+span {
+    font-size: 20px;
+}
+#List {
+    border-style: dashed;
+    border-color: black;
+    width: 20%;
+}
