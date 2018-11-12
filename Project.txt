@@ -7,3 +7,4 @@ Use cases:
     5. Where to buy desserts online
     6. User account/profile
     7. Dessert Event Calendar - tells you what days you can get free/discounted desserts and where 
+    8. Sign up for baking classes
