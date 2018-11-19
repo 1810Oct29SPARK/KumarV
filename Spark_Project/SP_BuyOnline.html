@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Buy Online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="SparkProject.css" />
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+<style>
+body {
+  font-family: 'Josefin Sans', serif;
+  font-size: 25px;
+}
+</style>
+    <script src="SparkProject.js"></script> 
+</head>
+<body>
+    
+    <nav>
+            
+                <a class="aNav" href="SparkProject.html">HOME</a>
+                <a class="aNav" href="SP_Recipes.html">RECIPES</a>
+                <a class="aNav" href="SP_Locator.html">LOCATOR</a>
+                <a class="aNav" href="SP_Newsletter.html">NEWSLETTER</a>
+                <a class="aNav" href="SP_BuyOnline.html">BUY ONLINE</a>
+                <a class="aNav" href="SP_Calendar.html">QUIZ</a>
+            
+        </nav>
+        <header>
+                <div class="header"><span style="color: white"><h1>
+                BUY ONLINE
+                </h1></span></div>
+            </header>
+        <div id="Buy_Online">
+            <div class="flex-container">
+            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Chocolate-Truffles_EXPS_HCA17_13122_B10_20_3b.jpg" style="width:500px; height:400px">
+            <div class="labels">
+            <span><p>Assorted Chocolate Truffles (Dozen) - $</p><p id="truffles">14</p></span>
+            </p>
+            <div class="form-buyOnline">
+            <form>
+                <select id="trufflesNum">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </form>
+                </div>
+            </div>
+        </div>
+            <br>
+            <div class="flex-container">
+            <img src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/16/1492550229-delish-lemon-blueberry-cake-2.jpg" style="width:500px; height:400px">
+            <div class="labels">
+            <p>Lemon Blueberry Cake - $<p id="lemonCake">12</p></p>
+            <div id="form2-buyOnline">
+            <form>
+                    <select id="cakeNum">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </form>
+                </div>
+                </div>
+                </div>
+            <br>
+            <div class="flex-container">
+            <img src="https://www.thechunkychef.com/wp-content/uploads/2015/05/Soft-and-Chewy-White-Chocolate-Macadamia-Nut-Cookies-8.jpg" style="width:500px; height:400px">
+            <div class="labels">
+            <p>White Chocolate Macadamia Cookies (Dozen) - $<p id="cookies">8</p></p>
+            <div id="form3-buyOnline">
+            <form>
+                    <select id="cookiesNum">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </form>
+                </div>
+                </div>
+                </div>
+
+                <br><br><br>
+                <div id="calculate">
+                <button onclick= "getElementById('calcTotal').innerHTML = calculatePrice();">Calculate My Total</button> 
+            </div>
+                <p id="calcTotal" style="text-align: center;"></p>
+                <div id="andSubmit">
+                <input type="submit" value="Buy!"/>
+            </div>
+            </div>
+
+
+
+</body>
+</html>

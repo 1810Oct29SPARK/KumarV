@@ -1,0 +1,119 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom right, #2a0347, #a42cff);
+    
+}
+.aNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px 40px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    
+   
+   
+}
+nav a {
+    display: block;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+   
+    
+}
+ a:hover {
+    color: #9A5FE8;
+}
+#form1 {
+    text-align: right;
+    margin-left: 50px;
+
+}
+
+div.dessertGallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 450px;
+}
+
+div.dessertGallery:hover {
+    border: 1px solid #777;
+}
+
+div.dessertGallery img {
+    width: 100%;
+}
+
+div.gallery {
+    padding: 15px;
+    text-align: center;
+}
+
+#pumpkinCheesecake {
+    float: right;
+}
+
+.slideshow-container {
+    margin-left: 14%;
+    
+}
+
+#newsletter {
+    text-align: center;
+}
+p {
+    color: white;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.labels {
+    margin-top: 150px;
+}
+.form-buyOnline {
+    margin-left: 210px;
+}
+#form2-buyOnline {
+    margin-left: 150px;
+}
+#form3-buyOnline {
+    margin-left: 270px;
+}
+#calculate {
+    margin-left: 670px;
+}
+#andSubmit {
+    margin-left: 50%;
+}
+.anotherFlex-Container {
+    display: flex;
+    flex-direction: row;
+}
+.header {
+    text-align: center;
+}
+#seasonal_recipes {
+    margin-top: 100px;
+}
+#pics {
+    width: 450px;
+    height: 400px;
+}
+#more_pics {
+    display: inline;
+}
+ul {
+    color: white;
+}
+#recipes {
+    text-align: center;
+    color: white;
+}
+label {
+    color: white;
+}

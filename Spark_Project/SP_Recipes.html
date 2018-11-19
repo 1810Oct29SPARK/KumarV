@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Recipes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+     <link rel="stylesheet" type="text/css" media="screen" href="SparkProject.css" />
+     <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+<style>
+body {
+  font-family: 'Josefin Sans', serif;
+  font-size: 25px;
+}
+</style>
+    <script src="SparkProject.js"></script> 
+</head>
+<body>
+   
+        <nav>
+            
+                <a class="aNav" href="SparkProject.html">HOME</a>
+                <a class="aNav" href="SP_Recipes.html">RECIPES</a>
+                <a class="aNav" href="SP_Locator.html">LOCATOR</a>
+                <a class="aNav" href="SP_Newsletter.html">NEWSLETTER</a>
+                <a class="aNav" href="SP_BuyOnline.html">BUY ONLINE</a>
+                <a class="aNav" href="SP_Calendar.html">QUIZ</a>
+            
+        </nav> 
+        <header>
+                <div class="header"><span style="color: white"> <h1>RECIPES</h1></span></div>
+            </header>
+
+    <!--Recipe API-->
+    <div id="cake"></div>
+    <span style="color: white"> <h3>Top Recipes</h3></span>
+    <div class="dessertGallery">
+            <a target="_blank" href="https://sallysbakingaddiction.com/nutella-brownies/">
+              <img src="https://www.handletheheat.com/wp-content/uploads/2015/08/Nutella-Brownies-011-550x550.jpg" alt="Nutella Brownies" width="600" height="400">
+            </a>
+            <span style="color: white"> <div class="gallery">Nutella Brownies</div></span>
+          </div>
+          
+          <div class="dessertGallery">
+            <a target="_blank" href="https://cooking.nytimes.com/recipes/1016329-red-velvet-cake">
+              <img src="https://images-gmi-pmc.edge-generalmills.com/c582c255-bf45-4b95-b392-ea7588099019.jpg" alt="Red Velvet Cake" width="600" height="400">
+            </a>
+            <span style="color: white"> <div class="gallery">Red Velvet Cake</div></span>
+          </div>
+          
+          <div class="dessertGallery">
+            <a target="_blank" href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">
+              <img src="https://images-gmi-pmc.edge-generalmills.com/b9272720-c6bf-4288-92f7-43542067af7c.jpg" alt="Chocolate Chip Cookies" width="600" height="400">
+            </a>
+            <span style="color: white"> <div class="gallery">Chocolate Chip Cookies</div></span>
+          </div>
+          <br><br><br><br>
+          <div id="seasonal_recipes"><span style="color: white"><h3>Seasonal Recipes</h3></span>
+    <div class="dessertGallery">
+            <a target="_blank" href="https://www.kingarthurflour.com/recipes/chai-spiced-pound-cake-recipe">
+              <img src="https://cdn-us-ec.yottaa.net/55b635db0b5344273c002031/d1fd69005c1501336a81123dfe2baf36.yottaa.net/v~4b.478/6149-3-large.jpg?yocs=2u_&yoloc=us" alt="Chai Spiced Pound Cake" width="600" height="400">
+            </a>
+            <span style="color: white"> <div class="gallery">Chai Spiced Pound Cake</div></span>
+          </div>
+          
+          <div class="dessertGallery">
+            <a target="_blank" href="https://cooking.nytimes.com/recipes/1016329-red-velvet-cake">
+              <img src="https://images-gmi-pmc.edge-generalmills.com/00399072-5112-4da9-8327-c89db4da8e76.jpg" alt="Pecan Pie" width="600" height="400">
+            </a>
+            <span style="color: white"> <div class="gallery">Pecan Pie</div></span>
+          </div>
+          
+          <div class="dessertGallery">
+            <a target="_blank" href="https://www.kingarthurflour.com/recipes/gingerbread-cookies-recipe">
+              <img src="https://www.skinnytaste.com/wp-content/uploads/2011/12/low-fat-gingerbread-men-550x425.jpg" alt="Gingerbread Cookies" width="600" height="400">
+            </a>
+            <span style="color: white"><div class="gallery">Gingerbread Cookies</div></div></span>
+          </div>
+        </div>
+          <br><br><br><br>
+          <span style="color: white"><h3>Assorted Desserts</h3></span>
+          <div id="sorry">
+
+            </div>
+
+    <p>Having trouble with these recipes? Sign up for baking classes below!</p>
+    <div class="form_recipes"><form action="Congrats2.html" method="POST">
+            <label for="text">Name</label><br>
+            <input type="text" name="text" placeholder="Jane Doe" required="true"><br><br>
+            <label for="text1">Phone</label><br>
+            <input type="text" name="text1" placeholder="303-337-7378" required="true"><br><br>
+            <label for="text2">Email</label><br>
+            <input type="email" name="text2" placeholder="mail@mail.com" required="true"><br><br>
+            <label for="date">Date</label><br>
+            <input id="date1" type="date" name="date" required="true"><br><br>
+            <label for="time">Time</label><br>
+            <input id="time1" type="time" name="time" required="true"><br><br>
+            <label for="classes">Type of Dessert</label><br>
+            <select name="classes">
+                    <option value="Cake">Cakes</option>
+                    <option value="Tart">Tarts</option>
+                    <option value="Brownies">Brownies</option>
+                    <option value="Cookies">Cookies</option>
+                    <option value="Pies">Pies</option>
+                    <option value="Pastries">Pastries</option>
+               </select><br>
+            <input type="submit" value="Submit"/>
+        </div>
+
+
+
+
+
+    </form>
+
+</body>
+</html>
